@@ -1,0 +1,22 @@
+{
+    "name": "code-sous-chef",
+    "version": "1.0.0",
+    "description": "DTU-Shuttle",
+    "main": "bundle2.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/code-sous-chef/code-sous-chef.github.io.git"
+    },
+    "author": "C Suhrit",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/code-sous-chef/code-sous-chef.github.io/issues"
+    },
+    "homepage": "https://github.com/code-sous-chef/code-sous-chef.github.io#readme",
+    "dependencies": {
+        "firebase": "^7.15.2"
+    }
+}

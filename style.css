@@ -1,0 +1,279 @@
+      * {
+          padding: 0px;
+          margin: 0px;
+          text-decoration: none;
+          list-style: none;
+          box-sizing: border-box;
+          width: auto;
+      }
+      
+      body {
+          font-family: montserrat;
+          background-size: cover;
+          margin-top: 90px auto;
+          background-position: center;
+      }
+      
+      nav {
+          background: #0082e6;
+          height: 85px;
+          width: 100%;
+      }
+      
+      label.logo {
+          color: white;
+          font-size: 35px;
+          line-height: 70px;
+          padding: 0px 50px;
+          font-weight: bold;
+      }
+      
+      nav ul {
+          float: right;
+          margin-right: 20px;
+      }
+      
+      nav ul li {
+          display: inline-block;
+          line-height: 70px;
+          margin: 0 5px;
+      }
+      
+      nav ul li a {
+          color: white;
+          font-size: 17px;
+          padding: 7px 13px;
+          border-radius: 3px;
+          text-transform: uppercase;
+      }
+      
+      a.active,
+      a:hover {
+          background: #1b9bff;
+          transition: .5s;
+      }
+      
+      .checkbtn {
+          font-size: 30px;
+          color: white;
+          float: right;
+          line-height: 70px;
+          margin-right: 40px;
+          cursor: pointer;
+          display: none;
+      }
+      
+      #check {
+          display: none;
+      }
+      
+      @media(max-width:952px) {
+          label.logo {
+              font-size: 30px;
+              padding-left: 50px;
+          }
+      }
+      
+      nav ul li a {
+          font-size: 16px;
+      }
+      
+      @media(max-width: 858px) {
+          .checkbtn {
+              display: block;
+          }
+          ul {
+              position: fixed;
+              width: 100%;
+              height: 100vh;
+              background: #2c3e50;
+              top: 80px;
+              left: -100%;
+              text-align: center;
+              transition: all .5s;
+          }
+          nav ul li {
+              display: block;
+              margin: 50px 0;
+              line-height: 39px;
+          }
+          nav ul li a {
+              font-size: 20px;
+          }
+          a:hover,
+          a.active {
+              background: none;
+              color: #0082e6;
+          }
+          #check:checked~ul {
+              left: 0;
+          }
+      }
+      
+      .font-h3 h3,
+      .image-setup h3 {
+          font-size: 25px;
+          font-weight: 700;
+          color: black;
+          font-size: 'Roboto', sans-serif;
+      }
+      
+      .image-setup img {
+          margin: 5px;
+          padding: 0px 0px;
+          width: 100%;
+          height: 80%;
+          border: 2px solid gray;
+          border-radius: 20px;
+          box-shadow: 15px 15px black;
+      }
+      
+      @media screen and (max-width: 90px) {
+          .image-setup img {
+              max-width: 300px;
+              margin: 5px;
+              padding: 0px 0px;
+              width: 100%;
+              height: 100%;
+              border: 2px solid gray;
+              border-radius: 20px;
+              box-shadow: 15px 15px black;
+          }
+      }
+      /* DTU Map CSS Ends */
+      /*Table CSS Starts */
+      
+      .table {
+          background: rgb(49, 34, 34);
+          padding: 0px 5px;
+          margin-left: 3px;
+          border: 2px solid blue;
+          margin: auto;
+      }
+      
+      .table th {
+          color: black;
+          padding: 15px;
+      }
+      
+      .table td {
+          color: white;
+          padding: 0.45rem;
+      }
+      
+      .header-login {
+          border: 2px solid black;
+          width: 280px;
+          height: 56%;
+          transform: translate(-50%, -50%);
+          border-radius: 20px;
+          background: rgba(0, 0, 0, 0.8);
+          box-sizing: border-box;
+          padding: 10px 0px;
+          color: #fff;
+          margin-top: 300px;
+          position: relative;
+          top: 50%;
+          left: 50%;
+      }
+      
+      footer .container-fluid {
+          background-color: black;
+          padding-top: 2px;
+          padding-bottom: 2px;
+          position: relative;
+          bottom: 0;
+          padding: 1rem 0;
+          clear: both;
+      }
+      
+      footer a {
+          color: whitesmoke;
+      }
+      
+      footer a:hover {
+          color: gray;
+          text-decoration: none;
+      }
+      /*Create USer Account CSS Ends */
+      
+      .wrap {
+          border: 20px solid black;
+          width: 280px;
+          height: 56%;
+          border-radius: 20px;
+          background: rgba(0, 0, 0, 0.8);
+          box-sizing: border-box;
+          padding: 10px 0px;
+          color: white;
+          margin-top: 300px;
+          position: relative;
+          top: 50%;
+          left: 50%;
+      }
+      
+      .wrap h2 {
+          text-align: center;
+          font-weight: bold;
+      }
+      
+      input[type=text],
+      input[type=password] {
+          width: 100%;
+          box-sizing: border-box;
+          padding: 12px 5px;
+          background: rgba(0, 0, 0, 0.10);
+          outline: none;
+          border: none;
+          border-bottom: 1px dotted#fff;
+          color: #fff;
+          border-radius: 5px;
+          margin: 5px;
+          font-weight: bold;
+      }
+      
+      button[type=submit] {
+          width: 100%;
+          box-sizing: border-box;
+          padding: 10px 0;
+          margin-top: 30px;
+          outline: none;
+          border: none;
+          background: #60adde;
+          opacity: 0.7;
+          border-radius: 20px;
+          font-size: 20px;
+          color: #fff;
+      }
+      
+      .btn2 {
+          width: 10%;
+          box-sizing: border-box;
+          padding: 10px 0;
+          margin-top: 30px;
+          outline: none;
+          border: none;
+          background: blue;
+          opacity: 1;
+          border-radius: 20px;
+          font-size: 20px;
+          color: red;
+      }
+      
+      .btn1 {
+          width: 10%;
+          box-sizing: border-box;
+          padding: 10px 0;
+          margin-top: 30px;
+          outline: none;
+          border: none;
+          background: blue;
+          opacity: 1;
+          border-radius: 20px;
+          font-size: 20px;
+          color: red;
+      }
+      
+      h1 {
+          text-align: center;
+      }
